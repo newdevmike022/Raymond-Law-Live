@@ -1,0 +1,65 @@
+.service {
+    align-items: center;
+    padding: 5rem 1rem;
+    
+
+    .offer h3 {
+        font-family: $font-one;
+        font-size: 2.5rem;
+        text-align: center;
+        color: $clr-blue;
+    }
+
+    .legal {
+        margin: 2rem 0;
+        text-align: center;
+
+        svg {
+            font-size: 4rem;
+            background: $clr-purple;
+            color: $clr-white;
+            border-radius: 50%;
+            padding: 10px;
+        }
+    }
+
+    .legalBack {
+        background: linear-gradient(
+            135deg,
+            $clr-white 0%,
+            $clr-yellow 100%);
+    }
+
+    ul {
+        font-family: $font-one;
+        font-size: 1.75rem;
+        padding-bottom: 1rem;
+
+        li {
+            padding: 0.5rem 0;
+            list-style-type: none;
+
+            svg {
+                color: $clr-purple;
+                display: inline-flex;
+                margin-top: -5px;
+            }
+        }
+    }
+}
+
+/* MEDIA */
+@media screen and (max-width: 768px) {
+    .service  {
+        padding: 3rem 1rem;
+
+        .offer h3 {
+            font-size: 2.25rem;
+        }
+
+        ul {
+            font-size: 1.5rem; 
+        }
+    }
+}
+  

@@ -1,0 +1,30 @@
+.vid {
+    min-height: 90vh;
+    width: 100%;
+    align-items: center;
+    padding: 5rem 1rem;
+}
+
+.video {
+    color: $clr-purple !important;
+    font-size: 1.75rem;
+    font-family: $font-one;
+    font-weight: 700;
+    padding: 15px 0 15px 20px;
+    text-align: left;
+    text-transform: uppercase;
+
+    .vidTwo {
+        text-transform: none;
+        color: black;
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+}
+
+/* MEDIA */
+@media screen and (max-width: 768px) {
+    .vid  {
+        padding: 3rem 1rem;
+    }
+}

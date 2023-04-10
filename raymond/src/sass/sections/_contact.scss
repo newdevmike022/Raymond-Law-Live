@@ -1,0 +1,102 @@
+.contact {
+    margin: 5rem 0;
+
+    h1 {
+        color: $clr-blue;
+        font-family: $font-one;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+
+        span {
+            font-size: 3rem;
+            font-weight: 900;
+            color: $clr-purple;
+        }
+    }
+
+    p {
+        color: $clr-grey-2;
+        font-family: $font-one;
+        font-size: 1.10rem; 
+        font-weight: 500;
+        text-align: center;
+        text-transform: none;  
+        
+        span {
+            font-size: 1.2rem;
+            font-weight: 800;
+        }
+    }
+}
+
+form {
+
+    .wrapper {
+        width: 100%;
+        -webkit-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+        -moz-box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+        box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18);
+
+        #contactForm {
+            .form-control {
+              font-size: 16px;
+            }
+        }
+    
+        .contactForm {
+            .form-control {
+              border: none;
+              border-bottom: 1px solid $clr-grey-2;
+              padding: 0;
+            }
+        }
+    }
+
+    .btn {
+        padding: 12px 16px;
+        cursor: pointer;
+        border-width: 1px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        -webkit-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+        -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+        box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+        margin: 20px auto;
+      }
+    
+      .btn-primary {
+        background: $clr-blue !important;
+        border-color: $clr-blue !important;
+        color: $clr-white;
+
+        &:hover {
+            background: $clr-grey-3 !important;
+        }
+      }
+}
+
+/* MEDIA */
+@media screen and (max-width: 768px) {
+    .contact  {
+        margin: 3rem 3rem;
+
+        h1 {
+            font-size: 1.35rem;
+            
+            span {
+                font-size: 2rem;
+            }
+        }
+
+        p {
+            font-size: 1rem;   
+            
+            span {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

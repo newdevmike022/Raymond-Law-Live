@@ -1,0 +1,53 @@
+.about {
+    min-height: 90vh;
+    width: 100%;
+    align-items: center;
+    padding: 5rem 2.5rem;
+    margin: 0 auto;
+
+    .ImageContainer {
+        text-align: center;
+        padding-bottom: 0.5rem;
+        margin: 0 auto 2rem auto;
+
+        .Image {
+            height: 24rem;
+            width: auto;
+            border: 2px solid $clr-grey-2;
+        }
+    }
+
+    .aboutContent {
+        padding: 0 3rem;
+
+        p {
+            font-family: $font-one;
+            font-size: 1.4rem;
+            text-align: justify;
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+/* MEDIA */
+@media screen and (max-width: 768px) {
+    .about  {
+        padding: 3rem 1rem;
+
+        .ImageContainer {
+    
+            .Image {
+                height: 20rem;
+                width: auto;
+            }
+        }
+
+        .aboutContent {
+            p {
+                font-size: 1.25rem;
+                text-align: left;
+            }
+        }
+    }
+}
+  
